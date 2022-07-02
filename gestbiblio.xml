@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="biblio.xsl" ?>
+<bibliotheque xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/PC/Desktop/tpbdd/schema.xsd">
+    <books>
+        <book id="001">
+            <titre lang="fr">LA PROGRAMMATION OBJET EN JAVA</titre>
+            <num_ISBN>2-10-049697-2</num_ISBN>
+            <auteur id="244672">
+                <nom>Michel</nom>
+                <prenom>Divay</prenom>
+                <lieu_de_naissence>Paris</lieu_de_naissence>
+                <date_de_naissence>24/2/1949</date_de_naissence>
+                <adresse>12 r Villers, 02190 EVERGNICOURT</adresse>
+            </auteur>
+            <annee>2006</annee>
+            <editeur id="21234234">
+                <nom_de_maison>© Dunod</nom_de_maison>
+                <adresse>Paris</adresse>
+            </editeur>
+            <dommaine>informatique</dommaine>
+            <keywords>
+                <keyword>cour</keyword>
+                <keyword>exercices corrigee</keyword>
+            </keywords>
+            <emprunts>
+                <emprunt>
+                    <date_sortie>01/01/2017</date_sortie>
+                    <date_retour>30/01/2017</date_retour>
+                    <emprunteur id="1234">
+                        <nom>Toto</nom>
+                        <adresse>Rue de la blague</adresse>
+                    </emprunteur>
+                </emprunt>
+                    <date_sortie>01/02/2017</date_sortie>
+                    <date_retour></date_retour>
+                    <emprunteur id="4321">
+                        <nom>Fifi</nom>
+                        <adresse>Rue du coffre</adresse>
+                    </emprunteur>
+                </emprunt>
+            </emprunts>
+            <couverture src="src/img/java.jpg"/>
+        </book>
+        <book id="002">
+            <titre lang="fr">RECHERCHE OPERATIONNELLE</titre>
+            <num_ISBN>978-2-7298-82020</num_ISBN>
+            <auteur id="24764653">
+                <nom>Jacques</nom>
+                <prenom>Taghem</prenom>
+                <lieu_de_naissence>lile</lieu_de_naissence>
+                <date_de_naissence>12/3/1942</date_de_naissence>
+                <adresse>34 rue charlie 23</adresse>
+            </auteur>
+            <annee>2008</annee>
+            <editeur id="212379807">
+                <nom_de_maison>© Ellipses</nom_de_maison>
+                <adresse>32 rue bargue 75740 paris cedex 15</adresse>
+            </editeur>
+            <dommaine>math</dommaine>
+            <keywords>
+                <keyword>gestion de production</keyword>
+                <keyword>modeles aleatoires</keyword>
+                <keyword>aide multicritères</keyword>
+            </keywords>
+            <couverture src="src/img/ROA.jpg"/>
+        </book>
+        <book id="003">
+            <titre lang="fr">Algorithmes fondamentaux et langage C</titre>
+            <num_ISBN>978-2-7298-3867-6</num_ISBN>
+            <auteur id="24764653">
+                <nom>Jeau-Louis </nom>
+                <prenom>Imbert</prenom>
+                <lieu_de_naissence>MARSIEL</lieu_de_naissence>
+                <date_de_naissence>23/1/1982</date_de_naissence>
+                <adresse>196 rue jak 123</adresse>
+            </auteur>
+            <annee>2013</annee>
+            <editeur id="212346354">
+                <nom_de_maison>© Ellipses</nom_de_maison>
+                <adresse>32 rue bargue 75740 paris cedex 15</adresse>
+            </editeur>
+            <dommaine>informatique</dommaine>
+            <keywords>
+                <keyword>codage</keyword>
+                <keyword>alternatives</keyword>
+                <keyword>boucle</keyword>
+                <keyword>tableaux</keyword>
+                <keyword>modularite</keyword>
+            </keywords>
+            <couverture src="src/img/C.jpg"/>
+        </book>
+        <book id="012">
+            <titre lang="fr">Petit problemes d'analyse</titre>
+            <num_ISBN>3-540-64074-6</num_ISBN>
+            <auteur id="22364685">
+                <nom>Jeau-marchel </nom>
+                <prenom>Ghidaglia</prenom>
+                <lieu_de_naissence>france</lieu_de_naissence>
+                <date_de_naissence>23/1/1978</date_de_naissence>
+                <adresse>94235 cachan cedex france</adresse>
+            </auteur>
+            <annee>1994</annee>
+            <editeur id="2123462465">
+                <nom_de_maison>© Springer</nom_de_maison>
+                <adresse>verlag berlin heidelberg new york</adresse>
+            </editeur>
+            <dommaine>math</dommaine>
+            <keywords>
+                <keyword>issus des concours d'entree a l'ecole normale superieure de cachan</keyword>
+            </keywords>
+            <couverture src="src/img/prb.jpg"/>
+        </book>
+        <book id="287">
+            <titre lang="fr">Problemes d'analyse 1</titre>
+            <num_ISBN>978-2-7598-0058-2</num_ISBN>
+            <auteur id="247646765">
+                <nom>Wieslawa , Maria </nom>
+                <prenom>Kaczor , Nowak</prenom>
+                <lieu_de_naissence>lile, paris</lieu_de_naissence>
+                <date_de_naissence>3/12/1982 12/4/1979</date_de_naissence>
+                <adresse>196 rue jak 123, 12 rue jaun 12 </adresse>
+            </auteur>
+            <annee>2008</annee>
+            <editeur id="21234632245">
+                <nom_de_maison>© EDP science</nom_de_maison>
+                <adresse>17 parc d'activite de courtaboeuf </adresse>
+            </editeur>
+            <dommaine>math</dommaine>
+            <keywords>
+                <keyword>continuite</keyword>
+                <keyword>derivation</keyword>
+            </keywords>
+            <couverture src="src/img/a1.png"/>
+        </book>
+        <book id="232">
+            <titre lang="fr">Problemes d'analyse 2</titre>
+            <num_ISBN>978-2-7598-0058-2</num_ISBN>
+            <auteur id="247646765">
+                <nom>Wieslawa , Maria </nom>
+                <prenom>Kaczor , Nowak</prenom>
+                <lieu_de_naissence>lile, paris</lieu_de_naissence>
+                <date_de_naissence>3/12/1982 12/4/1979</date_de_naissence>
+                <adresse>196 rue jak 123, 12 rue jaun 12 </adresse>
+            </auteur>
+            <annee>2008</annee>
+            <editeur id="21234632245">
+                <nom_de_maison>© EDP science</nom_de_maison>
+                <adresse>17 parc d'activite de courtaboeuf </adresse>
+            </editeur>
+            <dommaine>math</dommaine>
+            <keywords>
+                <keyword>nombre reel</keyword>
+                <keyword>suites</keyword>
+                <keyword>series</keyword>
+            </keywords>
+            <couverture src="src/img/a2.png"/>
+        </book>
+        <book id="223">
+            <titre lang="fr">Problemes d'analyse 3</titre>
+            <num_ISBN>978-2-7598-0058-2</num_ISBN>
+            <auteur id="247646765">
+                <nom>Wieslawa , Maria </nom>
+                <prenom>Kaczor , Nowak</prenom>
+                <lieu_de_naissence>lile, paris</lieu_de_naissence>
+                <date_de_naissence>3/12/1982 12/4/1979</date_de_naissence>
+                <adresse>196 rue jak 123, 12 rue jaun 12 </adresse>
+            </auteur>
+            <annee>2008</annee>
+            <editeur id="21234632245">
+                <nom_de_maison>© EDP science</nom_de_maison>
+                <adresse>17 parc d'activite de courtaboeuf </adresse>
+            </editeur>
+            <dommaine>math</dommaine>
+            <keywords>
+                </keyword>integration</keyword>
+            </keywords>
+            <couverture src="src/img/a3.jpg"/>
+        </book>
+    </books>
+</bibliotheque>
